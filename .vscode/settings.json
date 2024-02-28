@@ -1,0 +1,81 @@
+{
+	"css.format.maxPreserveNewLines": 1,
+	"css.format.spaceAroundSelectorSeparator": true,
+
+	"dotenv.enableAutocloaking": true,
+
+	"editor.detectIndentation": false,
+	"editor.indentSize": "tabSize",
+	"editor.insertSpaces": false,
+	"editor.linkedEditing": true,
+
+	"emmet.syntaxProfiles": {
+		"html": {
+			"self_closing_tag": true
+		}
+	},
+	"emmet.variables": {
+		"lang": "zh-hant-TW"
+	},
+
+	"files.associations": {
+		".env*": "dotenv"
+	},
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+
+	"html.format.maxPreserveNewLines": 1,
+	"html.format.templating": true,
+	"html.format.wrapAttributes": "force-expand-multiline",
+	"html.format.wrapLineLength": 0,
+
+	"javascript.preferences.quoteStyle": "single",
+
+	"json.format.keepLines": true,
+
+	"livePreview.autoRefreshPreview": "On Changes to Saved Files",
+	"livePreview.httpHeaders": {
+		"Accept-Ranges": "bytes"
+	},
+
+	"prettier.jsxSingleQuote": true,
+	"prettier.singleAttributePerLine": true,
+	"prettier.useTabs": true,
+	"prettier.vueIndentScriptAndStyle": true,
+
+	"thunder-client.saveToWorkspace": true,
+
+	"typescript.preferences.quoteStyle": "single",
+
+	"todo-tree.general.tags": [
+		"BUG",
+		"HACK",
+		"FIXME",
+		"TODO",
+		"XXX",
+		"[ ]",
+		"[x]",
+		"!!!"
+	],
+	"todo-tree.general.showActivityBarBadge": true,
+	"todo-tree.regex.subTagRegex": "^<(.*)>",
+	"todo-tree.tree.groupedByTag": true,
+	"todo-tree.tree.scanMode": "workspace",
+
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+
+	"[json][jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	}
+}
